@@ -12,6 +12,10 @@ Min WP Version: 2.5.0
 Max WP Version: 4.2
 */
 
+/**
+ * Determine the url of current visited page
+ * @return string
+ **/
 function alternate_curPageURL()
 {
  $pageURL = 'http';
@@ -25,6 +29,11 @@ function alternate_curPageURL()
  return $pageURL;
 } 
 
+/**
+* Add some HTML <link> tag inside <HEAD> tag
+* @return void
+* @Usage with wp_head action hook
+**/
 function add_alternate_link_tag()
 {
 if(is_home() || (is_single()&& !is_attachment()) || is_page() || is_tag() || is_category()){
