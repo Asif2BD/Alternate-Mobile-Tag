@@ -10,6 +10,8 @@ License: GPL2+
 Text Domain: alternate-mobile-tag-for-amp
 Min WP Version: 2.5.0
 Max WP Version: 4.6
+GitHub Plugin URI: https://github.com/Asif2BD/Alternate-Mobile-Tag-For-AMP
+GitHub Branch:     master
 */
 
 add_action( 'wp_head', 'alternate_amp_mobile_tag' );
