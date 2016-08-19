@@ -1,14 +1,14 @@
-=== Alternate Mobile Tag ===
+=== Alternate Mobile Tag For AMP ===
 Contributors: Asif2BD, onetarek
 Donate link: http://wpdeveloper.net/
 Tags: mobile-friendly, mobile tag, alternate tag, rel=alternate, handheld, mobile site, Google Search, Mobile Friendly
-Requires at least: 3.5.0
-Tested up to: 4.2
-Stable tag: 1.1
+Requires at least: 2.5
+Tested up to: 4.6
+Stable tag: 1.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add mobile site url in HEAD sectiomn as Link tag with rel=alternate. Mobile url example http://m.example.com
+Add mobile site url in HEAD sectiomn as Link tag with rel=alternate for AMP mobile version with ?amp.
 
 == Description ==
 
@@ -41,11 +41,11 @@ This is very simple plugin without any setting or configuartion. It assumes your
 
 = Modern Way: =
 1. Go to the WordPress Dashboard "Add New Plugin" section.
-2. Search For "Alternate Mobile Tag". 
+2. Search For "Alternate Mobile Tag For AMP". 
 3. Install, then Activate it.
 
 = Old Way: =
-1. Upload the `alternate-mobile-tag` folder to the `/wp-content/plugins/` directory
+1. Upload the `alternate-mobile-tag-for-amp` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 
@@ -73,14 +73,14 @@ Use plugin support button in WordPress.org extended listing.
 
 == Changelog ==
 
-= 1.1 - 2015-04-21 =
+= 1.0 - 2016-08-19 =
 * Initial release
 
 
 
 == Upgrade Notice ==
 
-= 1.1 =
+= 1.0 =
 * Initial release
 
 
