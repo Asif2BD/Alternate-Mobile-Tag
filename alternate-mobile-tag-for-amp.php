@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Alternate Mobile Tag
+Plugin Name: Alternate Mobile Tag For AMP
 Description: Add mobile site url in HEAD sectiomn as Link tag with rel=alternate. Mobile url example http://m.example.com
 Plugin URI: http://wpdeveloper.net
 Author: WPDeveloper.net
